@@ -1,0 +1,6 @@
+current_age = input("Enter your Current age:\n")
+years = 90-int(current_age)
+months = round(years * 12)
+weeks = round(years * 52)
+days = round(years * 365)
+print(f"You will live for {years} years, {months} months, {weeks} weeks, {days} days")
